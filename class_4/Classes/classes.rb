@@ -21,22 +21,6 @@
 # Instance methods are called using dot notation.
 # my_object.instance_method
 
-# Output:
-# This is a class method.
-# This is an instance method.
-
-# Classes can inherit from other classes. The class that is being inherited from is called the superclass.
-# The class that inherits from the superclass is called the subclass. The subclass inherits all the methods
-# and attributes of the superclass. The subclass can also define its own methods and attributes.
-# The subclass can override methods of the superclass. The subclass can extend the superclass.
-
-# Objects are created using the new method.
-# my_object = Subclass.new
-# Methods are called using dot notation.
-# my_object.method
-
-# Output:
-# This is a method from the subclass.
 
 class Person
   def initialize(name)
